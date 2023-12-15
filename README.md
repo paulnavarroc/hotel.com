@@ -14,6 +14,7 @@
 8. Ejecutar `npm run build`
 9. Crear un servidor local: `php artisan serve` 
 
+
 Una ves creado el servidor, ingresar a la url proporcionada por el servidor que por defecto es `http://127.0.0.1:8000`
 
 ## Crear Api Token
