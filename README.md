@@ -4,11 +4,15 @@
 - Tener activado algun servicio de `MySQL` puede ser en  `XAMPP` o cualquir otro
 
 ## Instalación
-1. Clona el repositorio: `git clone https://github.com/paulnavarroc/sistema-hotel`
-2. Instala las dependencias: `npm install`
-3. Ejecutar la migraciones: `php artisan migrate`  le pregutara si quiere crear la base de datos y pone que si
-4. Ejecutar los seeders: `php artisan db:seed`
-5. Crear un servidor local: `php artisan serve` 
+1. Clona el repositorio: `git clone https://github.com/paulnavarroc/hotel.com`
+2. Abrir el repositorio clonado y instalar las dependencias
+3. Istalar las dependencias **composer**: `composer install`
+4. Instala las dependencias **npm**: `npm install`
+5. Copiar el archivo **.env.example** y pegar cambiando el nombre a **.env** 
+6. Ejecutar la migraciones: `php artisan migrate`  le pregutara si quiere crear la base de datos y pone que si
+7. Ejecutar los seeders: `php artisan db:seed`
+8. Ejecutar `npm run build`
+9. Crear un servidor local: `php artisan serve` 
 
 Una ves creado el servidor, ingresar a la url proporcionada por el servidor que por defecto es `http://127.0.0.1:8000`
 
