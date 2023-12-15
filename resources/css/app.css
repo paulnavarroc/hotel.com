@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+[x-cloak] {
+    display: none;
+}
+
+.scrollbar-hidden::-webkit-scrollbar {
+    width: 0;
+}
+
+.scrollbar-hidden::-webkit-scrollbar-thumb {
+    background-color: transparent; /* Oculta el pulgar del scrollbar */
+}
+
+.scrollbar-hidden::-webkit-scrollbar-track {
+    background-color: transparent; /* Oculta la pista del scrollbar */
+}
