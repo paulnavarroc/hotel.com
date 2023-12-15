@@ -4,7 +4,7 @@
 - Tener activado algun servicio de `MySQL` puede ser en  `XAMPP` o cualquir otro
 
 ## Instalación
-1. Clona el repositorio: `git clone https://github.com/paulnavarroc/sistema-hotel`
+1. Clona el repositorio: `git clone https://github.com/paulnavarroc/hotel.com`
 2. Instala las dependencias: `npm install`
 3. Ejecutar la migraciones: `php artisan migrate`  le pregutara si quiere crear la base de datos y pone que si
 4. Ejecutar los seeders: `php artisan db:seed`
